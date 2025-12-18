@@ -53,21 +53,3 @@ body {
     object-fit: cover;
 }
 
-.animar {
-    opacity: 0;
-    transform: translateY(40px);
-    transition: all 0.8s ease;
-}
-
-.color-normal {
-    background-color: #f8f9fa;
-}
-
-.color-alterno {
-    background-color: #e6d9ff;
-    
-}
-
-#perfil {
-    transition: background-color 0.4s ease;
-}

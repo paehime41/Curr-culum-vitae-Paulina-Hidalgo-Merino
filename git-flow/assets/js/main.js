@@ -28,8 +28,3 @@ $(document).ready(function () {
   });
 });
 
-function cambiarColorSeccion() {
-  const seccion = document.getElementById('perfil');
-  seccion.classList.toggle('color-alterno');
-  seccion.classList.toggle('color-normal');
-}
