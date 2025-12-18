@@ -1,0 +1,73 @@
+/* VARIABLES GENERALES */
+:root {
+    /* Colores básicos */
+    --color-primario: #005bbb;
+    --color-secundario: #00aaff;
+    --color-texto: #333;
+    --color-fondo: #ffffff;
+    --color-gris-suave: #f4f4f4;
+
+    /* Tipografías */
+    --fuente-principal: Arial, Helvetica, sans-serif;
+
+    /* Espaciados */
+    --padding-base: 16px;
+    --padding-grande: 32px;
+    --ancho-maximo: 1200px;
+}
+
+
+/* RESET BÁSICO */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 70px;
+    transition: background 0.3s, color 0.3s;
+}
+
+
+.section {
+    padding: 60px 0;
+}
+
+
+.light-theme {
+    background: #f8f9fa;
+    color: #000;
+}
+
+
+.dark-theme {
+    background: #212529;
+    color: #fff;
+}
+
+.foto-perfil {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.animar {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease;
+}
+
+.color-normal {
+    background-color: #f8f9fa;
+}
+
+.color-alterno {
+    background-color: #e6d9ff;
+    
+}
+
+#perfil {
+    transition: background-color 0.4s ease;
+}
